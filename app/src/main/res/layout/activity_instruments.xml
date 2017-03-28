@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/RLgenerator"
+                android:onClick="toGenerator"
+                android:clickable="true">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/IBgenereator"
+                    android:background="@drawable/ic_looks_4_black_48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:onClick="toGenerator"
+                    android:nestedScrollingEnabled="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Рандомайзер"
+                    android:id="@+id/textView4"
+                    android:textStyle="bold"
+                    android:layout_above="@+id/IBgenereator"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="toGenerator"
+                    android:clickable="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="toSerializer"
+                android:clickable="true"
+                android:id="@+id/RLserializer">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Сериалайзер"
+                    android:id="@+id/textView2"
+                    android:layout_above="@+id/imageButton2"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:onClick="toSerializer" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton2"
+                    android:background="@drawable/ic_visibility_black_48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:onClick="toSerializer" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="toEnumerator"
+                android:clickable="true"
+                android:id="@+id/RLenumerator">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Счетчики"
+                    android:id="@+id/textView3"
+                    android:layout_above="@+id/imageButton3"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:onClick="toEnumerator" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton3"
+                    android:background="@drawable/ic_polymer_black_48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:onClick="toEnumerator" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="toFlashlight"
+                android:clickable="true"
+                android:id="@+id/RLflashlight">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton"
+                    android:background="@drawable/ic_highlight_black_48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:onClick="toFlashlight" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Фонарик"
+                    android:id="@+id/textView"
+                    android:textStyle="bold"
+                    android:layout_above="@+id/imageButton"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:onClick="toFlashlight" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

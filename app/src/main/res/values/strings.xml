@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="title_activity_serializer">Serializer</string>
+    <string name="title_activity_randomizer">Randomizer</string>
+    <string name="title_activity_one_dialog">Введите значение:</string>
+    <string name="title_activity_settings">Настройки</string>
+</resources>
